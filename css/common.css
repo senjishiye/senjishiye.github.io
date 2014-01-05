@@ -45,13 +45,14 @@ html{
 }
 
 .co-header{
-	padding: 20px 0 12px;
+	padding: 10px 0;
 }
 .co-header .nav{
 	height: 36px;
 	overflow: hidden;
 	background: url(../img/header.png) no-repeat left top;
 	padding-left: 4px;
+	border-radius: 5px;
 }
 .co-header .logo{
 	float: left;
@@ -76,4 +77,20 @@ html{
 	font-family: "Microsoft YaHei";
 }
 
+.co-footer{
+	margin-top: 20px;
+	border-top: solid 1px #ccc;
+}
+.co-footer .smalllogo{
+	position: absolute;
+}
+.co-footer .info{
+	padding: 12px 0 12px 160px;
+	line-height: 2;
+	color: #666;
+	font-family: "Microsoft YaHei";
+}
+.co-footer .info em{
+	color: #ccc;
+}
 

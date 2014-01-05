@@ -100,6 +100,19 @@
 	height: 28px;
 	font-size: 14px;
 	line-height: 28px;
+	letter-spacing: 1px;
+}
+.ui-grid .bar-head .title{
+	position: relative;
+	font-size: 14px;
+	padding: 0 10px;
+	background-color: #e0e0e0;
+	color: #666;
+}
+.ui-grid .bar-head .title a{
+	position: absolute;
+	right: 10px;
+	letter-spacing: 0;
 }
 .ui-grid .tabhead{
 	position: relative;
@@ -121,4 +134,84 @@
 }
 .ui-grid .bar-body.current{
 	display: block;
+}
+.ui-grid .bar-body .newslist{
+	padding: 10px 16px;
+	line-height: 30px;
+}
+.ui-grid .bar-body .newslist a{
+	float: left;
+	color: #666;
+}
+.ui-grid .bar-body .newslist a:hover{
+	color: #333;
+}
+.ui-grid .bar-body .newslist em{
+	float: right;
+	color: #999;
+}
+
+#kf-fade{
+	position: relative;
+	width: 310px;
+	height: 194px;
+	padding: 3px;
+	overflow: hidden;
+}
+.kf-fade-wrap, .kf-fade-wrap li{
+	width: 310px;
+	height: 194px;
+	overflow: hidden;
+}
+.kf-fade-icon{
+	position: absolute;
+	left: 130px;
+	bottom: 6px;
+	z-index: 9;
+}
+.kf-fade-icon li{
+	float: left;
+	margin-right: 6px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #999;
+	text-indent: -99px;
+	overflow: hidden;
+}
+.kf-fade-icon li.current{
+	background-color: #09f;
+}
+
+.ui-grid .bar-body .catlink{}
+.ui-grid .bar-body .catlink button{
+	width: 120px;
+	height: 30px;
+	background-color: #f0f0f0;
+}
+
+.ui-prolist{
+	margin-top: 10px; 
+}
+.ui-prolist .title{
+	font-size: 14px;
+	line-height: 2;
+	color: #666;
+	padding: 0 2px;
+}
+.ui-prolist .content{
+	padding: 10px;
+	background-color: #fff;
+}
+.ui-prolist .slidewrap{
+	height: 120px;
+	overflow: hidden;
+}
+.ui-prolist .content ul{
+	float: left;
+	width: 1600px;
+}
+.ui-prolist .content li{
+	float: left;
+	margin-right: 10px;
 }
