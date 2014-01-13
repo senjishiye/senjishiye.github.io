@@ -162,17 +162,19 @@
 	<div class="ui-prolist">
 		<div class="title">代理商风采</div>
 		<div class="content">
-			<div class="slidewrap">
-				<ul>
-					<li><img src="img/pro_1.jpg"></li>
-					<li><img src="img/pro_2.jpg"></li>
-					<li><img src="img/pro_3.jpg"></li>
-					<li><img src="img/pro_4.jpg"></li>
-					<li><img src="img/pro_1.jpg"></li>
-					<li><img src="img/pro_2.jpg"></li>
-					<li><img src="img/pro_3.jpg"></li>
-					<li><img src="img/pro_4.jpg"></li>
-				</ul>
+			<div id="kf-marquee" class="slidewrap">
+				<div class="kf-marquee-wrap slidewrap">
+					<ul>
+						<li><img src="img/pro_1.jpg"></li>
+						<li><img src="img/pro_2.jpg"></li>
+						<li><img src="img/pro_3.jpg"></li>
+						<li><img src="img/pro_4.jpg"></li>
+						<li><img src="img/pro_1.jpg"></li>
+						<li><img src="img/pro_2.jpg"></li>
+						<li><img src="img/pro_3.jpg"></li>
+						<li><img src="img/pro_4.jpg"></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -188,13 +190,14 @@
 </div>
 <script src="js/kf.js"></script>
 <script>
-kf.use(['slide1.0','tab1.0','fade1.0'], function(){
+kf.use(['slide1.0','tab1.0','fade1.0', 'marquee1.0'], function(){
 	var slide = new kf.slide('kf-slide');
 	var tab = new kf.tab('kf-tab', {
 		option: '.bar-head li',
 		pannel: '.bar-body'
 	});
 	var fade = new kf.fade('kf-fade');
+	var marquee = new kf.marquee('kf-marquee');
 });
 </script>
 </body>
