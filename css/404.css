@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* @index */
+.content{
+	height: 342px;
+	text-align: center;
+	background: url(../img/404.jpg) no-repeat center top;
+}
+.co-footer{
+	display: none;
+}
