@@ -45,7 +45,22 @@ html{
 }
 
 .co-header{
-	padding: 10px 0;
+	padding: 70px 0 10px;
+	background-size: 100px 100px;
+}
+.co-header .logo{
+	position: absolute;
+	margin: -68px 0 0 14px;
+	height: 100px;
+	background: url(../img/logo.png) no-repeat left top;
+	padding: 14px 0 0 106px;
+}
+.co-header .logoem{
+	position: absolute;
+	margin: -43px 0 0 670px;
+	width: 311px;
+	height: 30px;
+	background: url(../img/logo_em.png) no-repeat left top;
 }
 .co-header .nav{
 	height: 36px;
@@ -54,11 +69,6 @@ html{
 	padding-left: 4px;
 	border-radius: 5px;
 }
-.co-header .logo{
-	float: left;
-	width: 200px;
-	text-align: right;
-}
 .co-header .link{
 	float: right;
 	background: url(../img/header.png) no-repeat right top;
@@ -66,7 +76,7 @@ html{
 }
 .co-header .link a{
 	float: left;
-	width: 100px;
+	width: 116px;
 	height: 36px;
 	line-height: 36px;
 	background: url(../img/header.png) no-repeat left -40px;
@@ -83,9 +93,15 @@ html{
 }
 .co-footer .smalllogo{
 	position: absolute;
+	margin: 10px 0 0 20px;
+}
+.co-footer .smalllogo img{
+	width: 50px;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+	-webkit-filter:grayscale(1);
 }
 .co-footer .info{
-	padding: 12px 0 12px 160px;
+	padding: 12px 0 12px 92px;
 	line-height: 2;
 	color: #666;
 	font-family: "Microsoft YaHei";
