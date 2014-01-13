@@ -97,8 +97,6 @@ html{
 }
 .co-footer .smalllogo img{
 	width: 50px;
-	filter: gray;
-	-webkit-filter: grayscale(1);
 }
 .co-footer .info{
 	padding: 12px 0 12px 92px;

@@ -183,11 +183,29 @@
 	background-color: #09f;
 }
 
-.ui-grid .bar-body .catlink{}
-.ui-grid .bar-body .catlink button{
+.ui-grid .bar-body .catlink{
+	height: 112px;
+	overflow: hidden;
+}
+.ui-grid .bar-body .catlink .content{
+	padding: 17px 0 0 30px;
+}
+.ui-grid .bar-body .catlink .content a{
+	float: left;
+	margin: 0 16px 14px 0;
 	width: 120px;
-	height: 30px;
-	background-color: #f0f0f0;
+	height: 32px;
+	line-height: 32px;
+	background-color: #09f;
+	color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	font-family: "Microsoft YaHei";
+}
+.ui-grid .bar-body .catcall{
+	height: 88px;
+	overflow: hidden;
+	background: url(../img/support2.jpg) no-repeat right top;
 }
 
 .ui-prolist{
