@@ -186,7 +186,7 @@ html{
 .co-content p{
 	margin-bottom: 20px;
 }
-.co-content p.ti{
+.co-content.ti p{
 	text-indent: 2em;
 }
 
