@@ -16,7 +16,7 @@
 	overflow: hidden;
 }
 .ui-prolist li a.pic:hover{
-	background-color: #46aadb;
+	border-color: #46aadb;
 }
 .ui-prolist li .pic img{
 	display: block;
