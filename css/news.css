@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* @product */
+.ui-newslist{}
+.ui-newslist li{
+	border-bottom: dashed 1px #ccc;
+	padding: 0 10px;
+}
+.ui-newslist li a{
+	color: #525252;
+}
+.ui-newslist li a:hover{
+	color: #1479a7;
+}
+
+.ui-propage{
+	margin-top: 10px;
+	border-top: dashed 1px #ccc;
+	padding-top: 20px;
+	text-align: center;
+	color: #525252;
+}
+.ui-propage a{
+	color: #1479a7;
+}
+.ui-propage a:hover{
+	color: #1479a7;
+}
+
+.ui-newsinfo{}
+.ui-newsinfo .title{
+	text-align: center;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	padding: 0 0 10px 0;
+	border-bottom: dashed 1px #ccc;
+}
+.ui-newsinfo .info{
+	margin-top: 10px;
+	color: #666;
+}
+
+
