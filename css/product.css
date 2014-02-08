@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* @product */
+.ui-prolist{}
+.ui-prolist li{
+	float: left;
+	width: 210px;
+	padding: 10px 14px;
+}
+.ui-prolist li p{
+	margin: 0;
+}
+.ui-prolist li a.pic{
+	display: block;
+	height: 169px;
+	border: solid 5px #e0e0e0;
+	overflow: hidden;
+}
+.ui-prolist li a.pic:hover{
+	background-color: #46aadb;
+}
+.ui-prolist li .pic img{
+	display: block;
+	width: 100%;
+}
+.ui-prolist li .title{
+	line-height: 30px;
+	text-align: center;
+}
+.ui-prolist li .title a{
+	color: #525252;
+}
+.ui-prolist li .title a:hover{
+	color: #1479a7;
+}
+
+.ui-propage{
+	margin-top: 10px;
+	border-top: dashed 1px #ccc;
+	padding-top: 20px;
+	text-align: center;
+	color: #525252;
+}
+.ui-propage a{
+	color: #1479a7;
+}
+.ui-propage a:hover{
+	color: #1479a7;
+}
+
+.ui-proinfo{
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.ui-proinfo .pic{
+	float: left;
+	width: 310px;
+	padding: 10px;
+	background-color: #46aadb;
+}
+.ui-proinfo .pic img{
+	display: block;
+	width: 100%;
+}
+.ui-proinfo .info{
+	float: left;
+	margin-left: 20px;
+	width: 360px;
+	color: #404040;
+}
+.ui-proinfo .info p{
+	margin-bottom: 10px;
+}
+
+.ui-proinfo .tbinfo{
+	line-height: 22px;
+}
+.ui-proinfo .tbinfo .title{
+	padding: 0;
+	padding-left: 10px;
+	font-size: 16px;
+	line-height: 32px;
+	color: #1479a7;
+	font-family: "Microsoft YaHei";
+}
+.ui-proinfo .tbinfo .key{
+	text-align: right;
+	padding-right: 6px;
+}
+.ui-proinfo .tbinfo .val{
+	padding-left: 6px;
+}
+.ui-proinfo .tbinfo table{
+	width: 100%;
+}
+.ui-proinfo .tbinfo td{
+	padding: 4px 0;
+	border: solid 1px #ccc;
+}
+.ui-proinfo .tbinfo td.ps{
+	padding: 10px;
+	vertical-align: top;
+	line-height: 24px;
+}
+.ui-proinfo .tbinfo td.ps p{
+	margin-bottom: 10px;
+}

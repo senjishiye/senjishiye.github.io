@@ -51,9 +51,14 @@ html{
 .co-header .logo{
 	position: absolute;
 	margin: -68px 0 0 14px;
+	padding: 14px 0 0 106px;
+}
+.co-header .logo .pic{
+	position: absolute;
+	margin: -14px 0 0 -106px;
+	width: 100px;
 	height: 100px;
 	background: url(../img/logo.png) no-repeat left top;
-	padding: 14px 0 0 106px;
 }
 .co-header .logoem{
 	position: absolute;
@@ -109,7 +114,7 @@ html{
 }
 
 .co-inban{
-	margin: 0 auto 10px;
+	margin: 0 auto 16px;
 	width: 978px;
 	height: 258px;
 	overflow: hidden;
@@ -129,59 +134,74 @@ html{
 	margin-left: -220px;
 }
 .co-side dl{
-	width: 180px;
-	border: solid 1px #ccc;
-	border-radius: 5px;
+	width: 200px;
 	margin-bottom: 10px;
-	line-height: 32px;
-	background-color: #fff;
-	font-size: 14px;
-	font-family: "Microsoft YaHei";
+	line-height: 28px;
 	letter-spacing: 1px;
 }
 .co-side dt{
-	padding-left: 12px;
-	color: #09f;
-}
-.co-side dt em{
-	color: #09f;
-	opacity: 0.75;
+	line-height: 32px;
+	padding-left: 32px;
+	color: #fff;
+	background: url(../img/title.jpg) no-repeat left -1px;
+	border-radius: 5px 5px 0 0;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
 }
 .co-side dd{
-	border-top: solid 1px #ccc;
+	margin-top: 1px;
+	border: solid 1px #ccc;
 }
 .co-side dd a{
 	display: block;
-	padding-left: 32px;
-	color: #666;
-	background-color: #f0f0f0;
+	padding-left: 24px;
+	color: #1479a7;
+	background-color: #f7f7f7;
 }
 .co-side dd em{
 	font-size: 12px;
-	color: #999;
+	color: #1479a7;
 	font-family: "Arial";
 }
 .co-side dd a:hover, .co-side dd a:hover em{
-	color: #f60;
-	background-color: #e0e0e0;
+	color: #fff;
+	background-color: #46aadb;
+}
+.co-side .leftimg{
+	margin-bottom: 12px;
+}
+.co-side .leftimg img{
+	display: block;
 }
 
 .co-crumb{
-	border: solid 1px #ddd;
-	border-width: 1px 0;
-	line-height: 28px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+	line-height: 32px;
 	color: #666;
 	letter-spacing: 1px;
+	padding: 0 12px;
+	font-family: "Microsoft YaHei";
 }
 .co-crumb em{
 	color: #999;
+	font-family: "Arial";
+}
+.co-crumb a{
+	color: #1479a7;
 }
 
 .co-content{
-	padding: 20px 16px 0;
+	padding: 20px;
 	color: #444;
 	font-size: 14px;
-	line-height: 2;
+	line-height: 26px;
+	background-color: #fff;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	margin-top: 10px;
+	min-height: 300px;
 }
 .co-content p{
 	margin-bottom: 20px;
