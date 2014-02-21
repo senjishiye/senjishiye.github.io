@@ -164,7 +164,7 @@
 	height: 194px;
 	overflow: hidden;
 }
-kf-fade-wrap img{
+.kf-fade-wrap img{
 	display: block;
 	width: 310px;
 }
