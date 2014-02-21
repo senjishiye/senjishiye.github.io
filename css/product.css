@@ -85,9 +85,11 @@
 .ui-proinfo .tbinfo .key{
 	text-align: right;
 	padding-right: 6px;
+	width: 140px;
 }
 .ui-proinfo .tbinfo .val{
 	padding-left: 6px;
+	width: 170px;
 }
 .ui-proinfo .tbinfo table{
 	width: 100%;
