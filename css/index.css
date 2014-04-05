@@ -117,16 +117,17 @@
 }
 .ui-grid .tabhead{
 	position: relative;
+	background-color: #999;
 }
-.ui-grid .tabhead li{
-	margin: auto;
+.ui-grid .tabhead a{
+	float: left;
 	width: 104px;
 	height: 28px;
 	text-align: center;
 	background-color: #999;
 	color: #fff;
 }
-.ui-grid .tabhead li.current{
+.ui-grid .tabhead a.current{
 	background-color: #666;
 }
 .ui-grid .bar-body{
@@ -224,7 +225,7 @@
 }
 .ui-prolist .content{
 	padding: 10px;
-	background-color: #fff;
+	background-color: #e0e0e0;
 }
 .ui-prolist .slidewrap{
 	height: 120px;
