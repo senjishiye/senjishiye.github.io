@@ -189,6 +189,11 @@
 	background-color: #09f;
 }
 
+.ui-grid .bar-body video{
+	width: 100%;
+	height: 200px;
+	background-color: #000;
+}
 .ui-grid .bar-body .catlink{
 	height: 112px;
 	overflow: hidden;

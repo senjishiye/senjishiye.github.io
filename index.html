@@ -55,11 +55,16 @@
 		<div class="bar">
 			<div class="bar-head">
 				<div class="title">
-					新品推荐
-					<a href="#">more</a>
+					公司视频
 				</div>
 			</div>
 			<div class="bar-body">
+				<div id="j-video">
+					<video controls="controls">
+						<source src="video/senji.mp4" type="video/mp4" />
+					</video>
+				</div>
+				<!--				
 				<div id="kf-fade">
 					<div class="kf-fade-wrap">
 						<ul>
@@ -70,13 +75,14 @@
 						</ul>
 					</div>
 				</div>
+				-->
 			</div>
 		</div>
 		<div class="bar last">
 			<div class="bar-head">
 				<div class="title">
 					招商加盟
-					<a href="#">more</a>
+					<a href="join.html">more</a>
 				</div>
 			</div>
 			<div class="bar-body">
@@ -114,6 +120,23 @@
 		</div>
 	</div>
 </div>
+<script src="ckplayer/ckplayer.js" charset="utf-8"></script>
+<script>
+var videoSupper = !!document.createElement('video').canPlayType;
+if (!videoSupper) {
+	var flashvars={
+		f:'/video/senji.mp4',
+		c:0,
+		b:1
+	};
+	var params = {
+		bgcolor: '#000',
+		allowFullScreen: true,
+		allowScriptAccess: 'always'
+	};
+	CKobject.embedSWF('/ckplayer/ckplayer.swf', 'j-video', 'ckplayer_video','316','200', flashvars, params);
+}
+</script>
 <script src="js/kf.js"></script>
 <script>
 kf.use(['slide1.0','tab1.0','fade1.0', 'marquee1.0'], function(){
